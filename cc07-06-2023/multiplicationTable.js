@@ -12,9 +12,9 @@ For the given example, the return value should be:
 https://www.codewars.com/kata/534d2f5b5371ecf8d2000a08/train/javascript
 */
 multiplicationTable = function(size) {
-    rows =[]
+    let rows =[]
     for (i=1; i<=size; i++){
-      cols = []
+      let cols = []
       for (j=1; j<=size; j++){
         cols.push(i*j)
       }
